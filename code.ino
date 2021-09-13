@@ -19,8 +19,8 @@ pinMode(motor, OUTPUT);
 void loop()
 {
 int buttonState = digitalRead(button); // the int is assigned to read the state
-  									   // of the int "button", which is pin 3
-// Serial.println(buttonState); // we don't need this
+  									                   // of the int "button", which is pin 3
+// Serial.println(buttonState); //
 delay(1);
 
 delay(1);
